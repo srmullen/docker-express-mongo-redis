@@ -8,3 +8,5 @@ To install docker on ubuntu server use https://get.docker.com/
 Set environment variables on ubuntu server.
 Create a `.env` file on prod server.
 In `.profile` add `set -o allexport; source /root/.env; set +o allexport`
+
+Clone repo into app folder.
