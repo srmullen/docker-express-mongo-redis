@@ -57,7 +57,7 @@ app.use(session({
 
 app.get('/api', (req, res) => {
   console.log('yeah it ran');
-  res.send('<h2>Hi there!!!!</h2>');
+  res.send('<h2>Hi there</h2>');
 });
 
 app.use('/api/v1/posts', postRouter);
